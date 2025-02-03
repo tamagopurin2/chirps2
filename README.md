@@ -21,7 +21,7 @@
 * `cartopy`を用いて平均降水量の地図を作成する。
 * 処理された降水データをGeoTIFFファイルとしてエクスポートする。
 
-## 2. 必要な環境
+## 必要な環境
 
 スクリプトを実行する前に、Python3とJupyterNotebookの環境を構築してください。
 その後以下のライブラリをDLします。
@@ -48,7 +48,7 @@ uv:
 uv add xarray matplotlib cartopy netCDF4 rasterio
 ```
 
-## 3. 使い方
+## 使い方
 
 1. データ取得: CHIRPS2年降水NetCDFファイル (例: chirps-v2.0.annual.nc) をダウンロードし、指定したwork_dirディレクトリに配置します。  このディレクトリパスはスクリプト内で設定します。
 
@@ -61,7 +61,7 @@ uv add xarray matplotlib cartopy netCDF4 rasterio
 * 平均降水量の地図を表示する。
 * 平均降水量データをGeoTIFFファイル (average_prec.tif) としてwork_dirディレクトリに保存する。
 
-## 4. コード解説
+## コード解説
 ```Python
 import os
 import netCDF4
@@ -166,9 +166,9 @@ fpath_output = os.path.join(work_dir, output_file)
 mean_prec_2d.rio.to_raster(fpath_output, crs="EPSG:4326")  # 座標系をWGS84に指定
 ```
 
-## 5. ライセンス
+## ライセンス
 このスクリプトはMITライセンスで提供されています。
 
-## 6. 謝辞
+## 謝辞
 このスクリプトはCHIRPSのデータを使用しています。
 
