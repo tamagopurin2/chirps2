@@ -23,7 +23,8 @@
 
 ## 必要な環境
 
-スクリプトを実行する前に、Python3とJupyterNotebookの環境を構築してください。
+スクリプトを実行する前に、Python3とJupyterNotebookの環境を構築してください。（筆者はPython 3.10.12）
+Jupyter使わなくてもできますが、使った方が分かりやすいと思います。
 その後以下のライブラリをDLします。
 
 * `xarray`: NetCDFデータの読み込みと操作。
