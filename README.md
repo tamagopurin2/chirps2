@@ -84,7 +84,8 @@ ds = xr.open_dataset(fpath)
 データパス:
 * work_dir変数でNetCDFファイルが格納されているディレクトリのパスを指定します。例: work_dir = "/home/nknazs/CHIRPS/data"
 * data変数でNetCDFファイル名を指定します。例: data = "chirps-v2.0.annual.nc"
-* これらの設定が実際の環境に合っていることを確認してください。Windowsパスでは、バックスラッシュを2重にする  (例: r"C:\\path\\to\\file") ことを推奨します。
+* これらの設定が実際の環境に合っていることを確認してください。Windowsパスでは、バックスラッシュを2重にする  
+  (例: r"C:\\path\\to\\file") ことを推奨します。
 * データ読み込み: スクリプトはxarrayを用いてNetCDFファイルを開き、降水データ (precip変数) にアクセスします。変数名は特定のCHIRPS2ファイルによって異なる場合があるので、コマンドプロンプトからncdump -h chirps-* * v2.0.annual.ncを実行するか、PanoplyなどのNetCDFビューアでファイルを確認して正しい名前を調べてください。
 
 
