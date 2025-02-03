@@ -49,7 +49,7 @@ uv add xarray matplotlib cartopy netCDF4 rasterio
 
 ## Usage
 
-1. **Download Data:** Obtain the CHIRPS2 annual precipitation NetCDF file (e.g., `chirps-v2.0.annual.nc`) and place it in the designated `work_dir` directory.
+1. **Download Data:** Obtain the CHIRPS2 annual precipitation NetCDF file (e.g., `chirps-v2.0.annual.nc`) and place it in the designated `work_dir` directory.  https://www.chc.ucsb.edu/data
 
 2. **Run the Script:** Execute the script step by step. The script performs the following operations:
 
