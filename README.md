@@ -51,7 +51,7 @@ uv add xarray matplotlib cartopy netCDF4 rasterio
 
 ## 使い方
 
-1. データ取得: CHIRPS2年降水NetCDFファイル (例: chirps-v2.0.annual.nc) をダウンロードし、指定したwork_dirディレクトリに配置します。  このディレクトリパスはスクリプト内で設定します。
+1. データ取得: CHIRPS2年降水NetCDFファイル (例: chirps-v2.0.annual.nc) をダウンロードし、指定したwork_dirディレクトリに配置します。  このディレクトリパスはスクリプト内で設定します。  https://www.chc.ucsb.edu/data
 
 2. スクリプト実行: 各セルごとに実行していくだけです。
 スクリプトは以下の処理を行います。
