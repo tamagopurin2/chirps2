@@ -88,7 +88,7 @@ ds = xr.open_dataset(fpath)
   ```Python
   work_dir = "C:\\path\\to\\file"
   ```
-* データ読み込み: スクリプトはxarrayを用いてNetCDFファイルを開き、降水データ (precip変数) にアクセスします。変数名は特定のCHIRPS2ファイルによって異なる場合があるので、コマンドプロンプトからncdump -h chirps-* * v2.0.annual.ncを実行するか、PanoplyなどのNetCDFビューアでファイルを確認して正しい名前を調べてください。
+* データ読み込み: スクリプトはxarrayを用いてNetCDFファイルを開き、降水データ (precip変数) にアクセスします。変数名は特定のCHIRPS2ファイルによって異なる場合があるので、コマンドプロンプトからncdump -h chirps-* * v2.0.annual.ncを実行するか、PanoplyなどのNetCDFビューアでファイルを確認して正しい名前を調べてください。  
 
 
 データ抽出: latとlonのスライスで対象地域を定義します。例: lat = slice(40, 45)。必要に応じて開始値と終了値を調整して、目的の領域を選択してください。
